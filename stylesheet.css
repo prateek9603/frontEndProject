@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 0.7rem;
+    color: #fff;
+    filter: brightness(125%);
+    /* margin-top: 1rem; */
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    background-color: #E392A1;
+}
+
+#JaipurLogo h1{
+    font-size: 1.8rem;
+    margin: 0 0 0 1.5rem ;
+}
+
+#navBarList ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+#navBarList ul li{
+    list-style: none;
+    margin: 0 1.5rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+/* First Section */
+
+#Drone-video video{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(75%);
+}
+
+#man-image{
+    width: 21%;
+    height: 21%;
+}
+#man-image img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(200%);
+}
+
+#first_section_content{
+    padding: 5rem 5rem 5rem ;
+    font-style: bold;
+    font-weight: 800;
+}
+
+.welcoming-text{
+    font-size: 3rem;
+    color: #E392A1;
+    filter: brightness(125%);
+}
+
+
+/* history */
+
+#history{
+    background-color: rgb(236, 231, 231);
+}
+
+#history-heading{
+    text-align: center;
+    font-size: 3rem;
+    padding: 3rem 2rem ; 
+}
+
+.history-containers{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 4rem;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.history-image{
+    height:50vh;
+    width: 100vw;
+    margin: 0 3rem 0 0;
+}
+.history-image img{
+    width: 100%;
+    height: 100%;
+}
+#power-struggles-img img{
+    margin: 0 0 0 3rem ;
+}
+.history-containers h1{
+    margin-bottom: 1rem;
+}
+
+/* cards */
+
+
+
+#cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.card{
+    margin-bottom: 1rem;
+}
+
+#cards-heading {
+    text-align: center;
+    margin: 3rem auto 3rem;
+}
+
+.cards-image{
+    width: 18rem;
+    height: 13.5rem;
+}
+
+.cards-image img{
+    width: 100%;
+    height: 100%;
+}
+.card-title{
+    font-weight: 501;
+    font-size: 1.5rem;
+}
+
+/* about */
+
+#MapOfJaipur{
+    padding: 2rem;
+    background-color: rgb(245, 237, 237);
+}
+#MapOfJaipur h1 , h3{
+    text-align: center;
+    padding: .5rem;
+    font-weight: 700;
+}
+#MapOfJaipur p{
+    font-style: bold;
+    font-size: 1.2rem;
+}
+.sp{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+
+/* footer */
+footer {
+    background-color: #E392A1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+  }
+
+  /* Optional styles for additional beauty */
+  footer a {
+    /* color: #fff; */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  footer a:hover {
+    color: #FCE2E9; /* A slightly lighter shade of the footer's background color */
+  }
