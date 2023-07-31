@@ -167,23 +167,65 @@ nav{
 
 
 /* footer */
-footer {
-    background-color: #E392A1;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    /* position: fixed; */
-    bottom: 0;
-    width: 100%;
-  }
+footer .gray-back{
+    background-color: #f2d7dc;
+    position: relative;
+    
+}
+.footer-had h2{
+     font-weight: 500;
+     text-align: center;
+     font-size: 2rem;
+     padding: 1rem;
+}
 
-  /* Optional styles for additional beauty */
-  footer a {
-    /* color: #fff; */
+.main-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+}
+.feedback input{
+    width: 19vw;
+    height: 5vh;
+    background: #c0a1a161;
+    border: none;
+    border-radius: .5rem .9rem;
+    font-size: 1.1rem;
+    padding: 0 .7rem;
+}
+.feedback textarea{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    /* width: 19vw;
+    height: 5vh; */
+    background: #c0a1a161;
+    border: none;
+    border-radius: .5rem .9rem;
+    padding: 0 .7rem;
+}
+ul{
+    list-style: none;
+}
+.main-foot ul a{
     text-decoration: none;
-    transition: color 0.3s ease;
-  }
+    color: #000;
+}
+.main-foot ul li{
+    font-size: 1.1rem;
+    margin-right: .5rem ;
+    padding: .4rem;
 
-  footer a:hover {
-    color: #FCE2E9; /* A slightly lighter shade of the footer's background color */
-  }
+}
+.footer-contact ul li{
+    font-size: 1.3rem;
+
+}
+.footer-contact ul{
+    display: flex;
+
+}
